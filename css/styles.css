@@ -1,0 +1,31 @@
+body {
+    color: #0078e7;
+}
+
+form {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control label {
+    width: 30%;
+}
+
+.form-control input {
+    width: 70%;
+    text-align: right;
+}
+
+button{
+    width: 100%;
+}
+
+p.number {
+    font-size: 2em;
+    text-align: right;
+}

@@ -5,24 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculator</title>
 </head>
 <body>
     
     <form action="#" class="pure-form">
-        <input type="number" step="any" name="" id="pi" palceholder="Precio Inicial">
-        <input type="number" step="any" name="" id="pf" palceholder="Precio Final">
-        <input type="number" step="any" name="" id="dolar" value="0.80">
-        <input type="number" step="any" name="" id="cantidad" value="0.4561">
-        <input type="number" step="any" name="" id="fee" value="" placeholder="0.0">
-        <hr>
-        <p id="resultadoDolar"></p>
-        <p id="resultadoEuro"></p>
+        <div class="form-control">
+            <label for="pi">Precio Inicial</label>
+            <input type="number" step="any" name="" id="pi" palceholder="Precio Inicial">
+        </div>
+        <div class="form-control">
+            <label for="pf">Precio Final</label>
+             <input type="number" step="any" name="" id="pf" palceholder="Precio Final">
+        </div>
+        <div class="form-control">
+            <label for="cantidad">Cantidad</label>
+            <input type="number" step="any" name="" id="cantidad" value="4">
+        </div>
+        <div class="form-control">
+            <label for="pi">Dolar</label>
+            <input type="number" step="any" name="" id="dolar" value="0.80">
+        </div>
+        <div class="form-control">
+            <label for="fee">Tasa</label>
+            <input type="number" step="any" name="" id="fee" value="" placeholder="0.0">
+        </div>
+        <p class="number" id="resultadoDolar"></p>
+        <p class="number" id="resultadoEuro"></p>
         <button onclick="calc()" class="pure-button pure-button-primary">Calcular</button>
     </form>
     
-    <script src="js/main.js"></script>
+    <script src="main.js?v1.0"></script>
 
 </body>
 </html>
